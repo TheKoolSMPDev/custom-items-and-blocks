@@ -1,17 +1,38 @@
 name: "UndeadSword"
 item:
   canBeUsedGenerically: false
-  glows: true
   lore:
     - "&7Damage&r &c+30"
     - ""
     - "&7Deals&r &a+100%&r &7Damage to"
     - "&7Skeletons, Withers"
     - "&7Zombie Pigmen and"
-    - "&7and Zombies"
+    - "&7Zombies"
     - ""
     - "&f&lCOMMON"
  texture:
    type: item
  . item:
   .  id: 
+recipes: 
+#comming soon
+handlers:
+  hitMob:
+    actions:
+      - 
+        ifTargetType:
+          - "minecraft:wither_skeleton"
+          - "minecraft:skeleton"
+          - "minecraft:zombie"
+          - "minecraft:zombie_pigmen"
+        action: damageTarget
+        amount: 60
+      -
+        ifNotTargetType:
+          - "minecraft:wither"
+          - "minecraft:wither_skeleton"
+          - "minecraft:skeleton"
+          - "minecraft:zombie"
+          - "minecraft:zombie_pigmen"
+        action: damageTarget
+        amount: 30
