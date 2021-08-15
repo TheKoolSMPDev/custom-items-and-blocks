@@ -1,0 +1,76 @@
+name: "Flaming Sword"
+item:
+    material: "minecraft:iron_sword"
+    displayName: "&2Flaming Sword"
+    durability: -1
+    texture:
+        type: item
+        item:
+            id: 3
+    damageable: false
+    lore:
+        - "&7Damage: &r&c+50"
+        - "&7Strength: &r&c+20"
+        - ""
+        - "Ignites enemies fire for &23s"
+        - ""
+        - "&2&lUNCOMMON SWORD"
+info:
+#Comming Soon
+q:
+    -
+        shaped: true
+        shape:
+            - "xbx"
+            - "xbx"
+            - "xax"
+        items:
+            -
+                item: "minecraft:blaze_powder"
+                key: 'a'
+                
+        items:
+            -
+                item: "minecraft:stick"
+                key: 'b'
+    -
+        shaped: true
+        shape:
+            - "bxx"
+            - "bxx"
+            - "axx"
+        items:
+            -
+                item: "minecraft:blaze_powder"
+                key: 'a'
+                
+        items:
+            -
+                item: "minecraft:stick"
+                key: 'b'
+    -
+        shaped: true
+        shape:
+            - "xxa"
+            - "xxa"
+            - "xxb"
+        items:
+            -
+                item: "minecraft:blaze_powder"
+                key: 'a'
+                
+        items:
+            -
+                item: "minecraft:stick"
+                key: 'b'
+handlers:
+    leftClick: # When a player hits the air with this item
+        actions:
+            -
+                action: setFireTicks
+                tickS: 60
+    hitmob:
+        actions:
+            -
+               action: damageTarget
+               amount: 50

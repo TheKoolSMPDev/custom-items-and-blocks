@@ -1,0 +1,26 @@
+name: "Enchanted Ender Pearl"
+
+item:
+    displayName: "&2Enchanted Ender Pearl"
+    material: "minecraft:enderpearl"
+    canBeUsedGenerically: false
+    hideEnchantments: true
+    damageable: false
+    lore:
+        - "&2&lUNCOMMON"
+    enchantments:
+    "minecraft:luck"
+
+recipes:
+    shaped: true
+    shape:
+        - aaa
+        - aax
+        - xxx
+        
+    items:
+        -
+            item: "minecraft:enderpearl"
+            amount: 4
+            key: 'a'
+            

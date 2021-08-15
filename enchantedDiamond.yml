@@ -1,0 +1,22 @@
+name:
+item:
+    displayName: "&2Enchanted Diamond"
+    damageable: false
+    material: "minecraft:diamond"
+    canBeUsedGenerically: false
+    hideEnchantments: true
+    enchantments:
+    "minecraft:luck"
+    lore:
+        - "&2UNCOMMON"
+recipes:
+    shaped: true
+    shape:
+        - "aaa"
+        - "aax"
+        - "xxx"
+    items:
+        -
+            item: "minecraft:diamond"
+            amount: 32
+            id: 'a'            

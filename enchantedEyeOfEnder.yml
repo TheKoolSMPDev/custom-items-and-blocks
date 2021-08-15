@@ -1,0 +1,20 @@
+name: "Enchanted Eye Of Ender"
+
+item:
+    displayName: "&2Enchanted Eye of Ender"
+    material: "minecraft:eye_of_ender"
+    canBeUsedGenerically: false
+    damageable: false
+    hideEnchantments: true
+    enchantments:
+    "minecraft:luck"
+    lore:
+        - "&2UNCOMMON"
+recpies:
+    shaped: truE
+    shape:
+        - "aaa"
+        - "abx"
+        - "xxx"
+    items:
+        -

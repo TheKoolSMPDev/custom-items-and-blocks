@@ -1,0 +1,82 @@
+name: "Aspect of the end"
+item:
+    material: "DIAMOND_SWORD"
+    displayName: "&1Aspect of the End"
+    durability: -1
+    texture:
+        type: item
+        item:
+            id: 1
+    damageable: false
+    lore:
+        - "&7Damage: &r&c+150"
+        - "&7Strength: &r&c+100"
+        - ""
+        - "&6Abbility: Instant Teleport"
+        - "Instantly Teleport 8 Blocks"
+        - "&8Mana Cost: &r&350"
+        - ""
+        - "&1&lRARE SWORD"
+        
+recipe:
+    shaped:
+    shape:
+        - "axx"
+        - "axx"
+        - "bxx"
+    items:
+        -
+            item: "enchantedEyeOfEnder"
+            amount: 16
+            key: 'a'
+        -
+            item: "enchantedDiamond"
+            amount: 16
+            key: 'b'
+    shape:
+        - "xax"
+        - "xax"
+        - "xbx"
+    items:
+        -
+            item: "enchantedEyeOfEnder"
+            amount: 16
+            key: a
+        -
+            item: "enchantedDiamond"
+            amount: 16
+            key: 'b'
+    shape:
+        - "xxa"
+        - "xxa"
+        - "xxb"
+    items:
+        -
+            item: "enchantedEyeOfEnder"
+            amount: 16
+            key: 'a'
+        -
+            item: "enchantedDiamond"
+            amount: 16
+            key: 'b'
+                
+handlers:
+    rightClickAir:
+        actions: 
+            - 
+                action: teleportPlayer
+
+                world: "world"
+                x: 8
+                y: 8
+                z: 0
+        
+        method: "add"
+        bringToTop: true
+    
+    hitMob:
+        actions:
+            -
+                action: damageTarget
+                
+                amount: 150

@@ -1,0 +1,40 @@
+name: "Rogue Sword"
+item:
+    material: "minecraft:golden_sword"
+    displayName: "&1Rogue Sword"
+    durability: -1
+    textureID: 2
+    damageable: false
+    lore:
+        - "&7Damage: &r&c+20"
+        - "&6Abilitty: Speed Boost &r&e&lRIGHT CLICK"
+        - "Incereases your movement"
+        - "Speed by &a+20&r &a30&r seconds"
+        - "&8Manacost: &r&b50"
+        - ""
+        - "&f&lCOMMON SWORD"
+info:
+#Comming Soon
+recipe:
+#Comming Soon
+handlers:
+    rightClickAir: 
+        actions: # run these actions 
+        -
+            action: playerAddEffect
+
+            effects:
+                -
+                    type: "SPEED"
+                    time: 30
+                    strength: 1
+                    particles: false
+        
+            delay: 600
+    hitMob:
+        actions:
+            -
+                action: damageTarget
+                
+                amount: 20
+      
