@@ -1,2 +1,8 @@
 name: "UndeadSword"
 item:
+ canBeUsedGenerically: false
+ 
+ texture:
+  type: item
+  item:
+    id: 
