@@ -1,8 +1,17 @@
 name: "UndeadSword"
 item:
- canBeUsedGenerically: false
- 
+  canBeUsedGenerically: false
+  glows: true
+  lore:
+    - "&7Damage&r &c+30"
+    - ""
+    - "&7Deals&r &a+100%&r &7Damage to"
+    - "&7Skeletons, Withers"
+    - "&7Zombie Pigmen and"
+    - "&7and Zombies"
+    - ""
+    - "&f&lCOMMON"
  texture:
-  type: item
-  item:
-    id: 
+   type: item
+ . item:
+  .  id: 
