@@ -1,9 +1,13 @@
 name: "Rogue Sword"
 item:
+    canBeUsedGenerically: false
     material: "minecraft:golden_sword"
     displayName: "&1Rogue Sword"
     durability: -1
-    textureID: 2
+    texture:
+        type: item
+        item:
+            id: 2
     damageable: false
     lore:
         - "&7Damage: &r&c+20"
