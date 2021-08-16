@@ -6,8 +6,7 @@ item:
     canBeUsedGenerically: false
     damageable: false
     hideEnchantments: true
-    enchantments:
-    "minecraft:luck"
+    glows: true
     lore:
         - "&2UNCOMMON"
 recpies:
