@@ -4,9 +4,7 @@ item:
     damageable: false
     material: "minecraft:diamond"
     canBeUsedGenerically: false
-    hideEnchantments: true
-    enchantments:
-    "minecraft:luck"
+    glows: true
     lore:
         - "&2UNCOMMON"
 recipes:
