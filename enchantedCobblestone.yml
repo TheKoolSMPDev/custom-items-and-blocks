@@ -1,1 +1,17 @@
+name: "Enchanted Cobblestone"
 
+item:
+  displayName: "&fEnchanted Cobblestone"
+  material: "minecraft:cobblestone"
+  glows: true
+  durability: -1
+  lore:
+    - "&f&lCOMMON"
+
+recipes:
+  -
+    shaped:
+    items:
+
+canBeUsedGenerically: false
+canBePlaced: false
