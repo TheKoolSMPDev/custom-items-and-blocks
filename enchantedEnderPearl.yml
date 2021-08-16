@@ -8,8 +8,7 @@ item:
     damageable: false
     lore:
         - "&2&lUNCOMMON"
-    enchantments:
-    "minecraft:luck"
+    glows: true
 
 recipes:
     shaped: true
