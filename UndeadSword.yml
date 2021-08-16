@@ -25,6 +25,7 @@ handlers:
           - "minecraft:skeleton"
           - "minecraft:zombie"
           - "minecraft:zombie_pigmen"
+          - "minecraft:wither"
         action: damageTarget
         amount: 60
       -
