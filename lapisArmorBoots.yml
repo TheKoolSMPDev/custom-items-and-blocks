@@ -1,0 +1,22 @@
+
+name: "Lapis Armor leggings Boots"
+item:
+  displayName: "&aLapis Armor Boots"
+  material: "minecraft:leather_boots"
+  durability: -1
+  lore:
+    - "&7Defence:&r &a+20"
+    - ""
+    - "&7Each Piece of Armor grants"
+    - "&7a&r &a50%&r&7 bounus experience when"
+    - "&7mining ores"
+    - ""
+    - "&6Full set bonus: health"
+    - "increases the users maximum"
+    - "&c🖤 Health & r by 60"
+    - ""
+    - "&a&lUNCOMMON"
+armor:
+  category: "lapis-armor"
+  strength: 20
+  blastResistance: 1
