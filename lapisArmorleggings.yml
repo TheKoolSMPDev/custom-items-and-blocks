@@ -16,3 +16,6 @@ item:
     - ""
     - "&a&lUNCOMMON"
 armor:
+  category: "lapis-armor"
+  strength: 35
+  blastResistance: 5
