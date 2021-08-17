@@ -4,7 +4,7 @@ item:
   material: "minecraft:leather_leggings"
   durability: -1
   lore:
-    - "&7Defence:&r &a+40"
+    - "&7Defence:&r &a+35"
     - ""
     - "&7Each Piece of Armor grants"
     - "&7a&r &a50%&r&7 bounus experience when"
@@ -15,3 +15,4 @@ item:
     - "&c🖤 Health & r by 60"
     - ""
     - "&a&lUNCOMMON"
+armor:
