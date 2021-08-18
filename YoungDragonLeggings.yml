@@ -1,0 +1,33 @@
+name: "Young Dragon Leggings"
+item:
+  displayName: "&6Young Dragon Leggings"
+  canBeUsedGenerically: "false"
+
+  material: "minecraft:leather_leggings"
+  color: "FFFFFF"
+  durability: -1
+  lore:
+    - "&7Health:&r &a+100"
+    - "&7Defence:&r &a+140"
+    - "&7Speed:&r &a+20"
+    - ""
+    - "&6Full sey bonus: Young Blood:"
+    - "&7Gain &r&a+70&r Walk Speed while"
+    - "&you are above&r &a50%&r &7HP"
+    - ""
+    - "&cRequires &r&f⚔&r &aCombat skill 16&r
+    - " &6&lLENGENDARY"
+    
+
+armor:
+  category: "Young-Dragon-Armor"
+  strength: 75
+  blastResistance: 55
+  effects:
+    -
+      potion: "SPEED"
+      strength: 8
+    -
+      potion: "DAMAGE_RESISTANCE"
+      strength: "40"
+      
