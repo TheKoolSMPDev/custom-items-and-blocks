@@ -2,6 +2,7 @@ name: "Lapis Armor Leggings"
 item:
   displayName: "&aLapis Armor Leggings"
   material: "minecraft:leather_leggings"
+  color: "5240FF"
   durability: -1
   lore:
     - "&7Defence:&r &a+35"
