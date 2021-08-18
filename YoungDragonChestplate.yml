@@ -1,9 +1,9 @@
-name: "Young Dragon Armor"
+name: "Young Dragon Chestplate"
 item:
-  displayName: "&6Young Dragon Helmate
-  canBeUsedGenetically: "true"
+  displayName: "&6Young Dragon Chestplate"
+  canBeUsedGenetically: "false"
 
-  material: "minecraft:player_head"
+  material: "minecraft:leather_chestplate"
   color: "FFFFFF"
   durability: -1
   lore:
