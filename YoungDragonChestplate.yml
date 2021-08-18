@@ -1,6 +1,8 @@
 name: "Young Dragon Armor"
 item:
-  displayName: "&6Young Dragon Helmet"
+  displayName: "&6Young Dragon Helmate
+  canBeUsedGenetically: "true"
+
   material: "minecraft:player_head"
   color: "FFFFFF"
   durability: -1
@@ -19,8 +21,8 @@ item:
 
 armor:
   category: "Young-Dragon-Armor"
-  strength: 80
-  blastResistance: 80
+  strength: 75
+  blastResistance: 55
   effects:
     -
       potion: "SPEED"
