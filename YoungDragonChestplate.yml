@@ -1,1 +1,32 @@
+name: "Young Dragon Armor"
+item:
+  displayName: "&6Young Dragon Helmet"
+  material: "minecraft:player_head"
+  color: "FFFFFF"
+  durability: -1
+  lore:
+    - "&7Health:&r &a+120"
+    - "&7Defence:&r &a+500"
+    - "&7Speed:&r &a+80"
+    - ""
+    - "&6Full sey bonus: Young Blood:"
+    - "&7Gain &r&a+70&r Walk Speed while"
+    - "&you are above&r &a50%&r &7HP"
+    - ""
+    - "&cRequires &r&f⚔&r &aCombat skill 16&r
+    - " &6&lLENGENDARY"
+    
+
+armor:
+  category: "Young-Dragon-Armor"
+  strength: 80
+  blastResistance: 80
+  effects:
+    -
+      potion: "SPEED"
+      strength: 8
+    -
+      potion: "DAMAGE_RESISTANCE"
+      strength: "50"
+      
 
