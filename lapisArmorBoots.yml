@@ -3,6 +3,7 @@ name: "Lapis Armor leggings Boots"
 item:
   displayName: "&aLapis Armor Boots"
   material: "minecraft:leather_boots"
+  color: "5240FF"
   durability: -1
   lore:
     - "&7Defence:&r &a+20"
