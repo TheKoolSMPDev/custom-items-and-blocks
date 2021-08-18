@@ -1,7 +1,8 @@
-name: "Lapis Armor Helmate"
+name: "Lapis Armor Chestplate"
 item:
   displayName: "&aLapis Armor Chestplate"
   material: "minecraft:leather_chestplate"
+  color: "5240FF"
   nbt: '{SkullOwner:{Id: "5f1bca5e-bd47-4b6d-a5c8-78256614a066",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI5ZmZkODViZjAyODNhNTg4NzA2ZTNkMjdhZmI5ZDQ5MTdlMDZmMmJhNzE3YzFhZWE2OGRjNzkzOTNiOTFmNCJ9fX0="}]}}}'
   durability: -1
 
