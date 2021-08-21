@@ -35,4 +35,8 @@ recipes:
       - "aaa"
       - "axa"
       - "xxx"
-      
+    items:
+      -
+        item: "wiseDragonFragment"
+        amount: 10
+        id: 'a'
