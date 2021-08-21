@@ -37,6 +37,6 @@ recipes:
       - "xxx"
     items:
       -
-        item: "wiseDragonFragment"
+        item: "WiseDragonFragment"
         amount: 10
         id: 'a'
