@@ -1,0 +1,13 @@
+name: "Wise Dragon Fragment"
+canBeUsedGenerically: false
+item:
+  displayName: "&5Wise Dragon Fragment"
+  material: PLAYER_HEAD
+  nbt: '{SkullOwner:{Id:"1724413355,-1505541214,-1844459610,-770184410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ3NjIwYjJlNDkzNDk2M2JiMTI1MDgzMTBkMDU0OTRjMDY3ZGMzM2UwMDhjZWNmMmNkN2I0NTQ5NjU0ZmFiMyJ9fX0="}]}}}'
+  lore:
+    - "&5&lEPIC"
+info:
+  description: "wise dragon fragments are used to make wise dragon armor"
+  useage: "Used to make wise dragon armor"
+  obtaining: "From the bazzar and dragon fights"
+  
