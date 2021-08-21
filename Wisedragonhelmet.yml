@@ -9,5 +9,30 @@ item:
     - "&7Health:&r&a +70HP"
     - "&7Defense:&r&a +110"
     - "&7Intelligence:&r&a +125"
-    - "
+    - ""
+    - "&6Full Set Bonus: Wise Blood*
+    - "All abilities cost 33% less Mana
+    - ""
+    - "⚔ &cRequires Combat Level 16&r ⚔"
+    - "&6&lLEGENDARY"
+armor:
+  category: "Wise-Dragon-Armor
+  strength: 60
+  blastResistance: 45
   
+  effects:
+    -
+      potion: HEALTH_BOOST
+      strength: 35
+    -
+      potion: DAMAGE_RESISTANCE
+      strength: 55
+
+recipes:
+  -
+    shaped: true
+    shape:
+      - "aaa"
+      - "axa"
+      - "xxx"
+      
