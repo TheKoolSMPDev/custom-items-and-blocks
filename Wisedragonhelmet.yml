@@ -1,4 +1,6 @@
 name: "Wise Dragon Helmet"
 item:
   displayName: "&6Wise Dragon Helmet"
+  nbt: 
+  meterial: PLAYER_HEAD
   
