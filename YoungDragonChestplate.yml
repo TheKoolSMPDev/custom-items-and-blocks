@@ -1,8 +1,7 @@
 name: "Young Dragon Chestplate"
+canBeUsedGenetically: "false"
 item:
   displayName: "&6Young Dragon Chestplate"
-  canBeUsedGenetically: "false"
-
   material: "minecraft:leather_chestplate"
   color: "FFFFFF"
   durability: -1
